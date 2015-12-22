@@ -1,3 +1,42 @@
 body {
     font-family: Helvetica;
 }
+
+#player-one-score {
+  color: maroon;
+  font-style: italic;
+  text-align: center;
+}
+
+#player-two-score {
+    color: maroon;
+    font-style: bold;
+}
+
+.player-one-name {
+    font-family: Goudy Stout;
+    color: white;
+    text-align: center;
+    border: 5px solid green;
+    border-radius: 25px;
+    background: green;
+    width: 300px;
+    margin: auto;
+
+}
+
+.player-two-name {
+    font-family: Goudy Stout;
+    color: white;
+    border: 5px solid red;
+    border-radius: 25px;
+    background: red;
+    width: 240px;
+}
+
+#r {
+    height: 220px;
+    width: 250px;
+    display: block;
+    margin: auto;
+}

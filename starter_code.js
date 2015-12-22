@@ -48,7 +48,7 @@ $(document).ready(function(){
     }
     
     $(".js-two-pointer").click(function(){
-       var success = window.tryTwoPointShot();
+       var success = window.tryMidrangeShot();
        var scoreToUpdate = gameState.isPlayerOnesTurn ? gameState.playerOneScore : gameState.playerTwoScore;
        var newScore = window.updateScore(success, scoreToUpdate, 2);
        var playerName;
